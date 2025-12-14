@@ -1,0 +1,30 @@
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ pwd
+/c/Users/aaa/Desktop
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ touch calc.sh
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ nano calc.sh
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ chmod +x calc.sh
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ is -l calc.sh
+bash: is: command not found
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ ls -l calc.sh
+-rw-r--r-- 1 aaa 197121 289 Dec 13 12:59 calc.sh
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ ./calc.sh
+enter first number:
+10
+enter second number:
+40
+Enter operator (+ - * /):
++
+result: 50

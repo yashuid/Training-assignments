@@ -1,0 +1,18 @@
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ pwd
+/c/Users/aaa/Desktop
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ touch report.txt
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ chmod u=rw,g=r,o= report.txt
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ chmod 640 report.txt
+
+aaa@DESKTOP-DFIEGPG MINGW64 ~/Desktop
+$ ls -l report.txt
+-rw-r--r-- 1 aaa 197121 0 Dec 13 12:42 report.txt
+
